@@ -56,8 +56,13 @@ body, input, button, textarea{
     margin: 10px;
     width: 600px;
     height: 600px; */
-    border: 1px solid red;
+    border: 1px solid red;/*para entender o que é a borda*/
     width: 90vw;
     max-width: 700px;
 }
 
+@media (min-wideth: 700px){
+    :root{
+        font-size: 62.5%; /*todo 1rem vai ser relativo a 10px*/
+    }
+}
